@@ -1,0 +1,31 @@
+<project name="scnr_prsr" default="build" basedir=".">
+
+	<property name="src" value="src"/>
+	<property name="build" value="build"/>
+	<property name="doc" value="doc"/> 
+
+	<path id="lib.path">
+		<pathelement location="${build}" />
+	</path>
+
+	<target name="init">
+		<mkdir dir="${build}"/>
+	</target>
+	<target name="build" depends="init">
+		<javac srcdir="${src}" destdir="${build}" debug="true" includeantruntime="false">
+		</javac>
+	</target>
+
+	<target name="run" depends="build">
+		<java classname="scnr_prsr" fork="true" dir="." maxmemory="4096m">
+			<classpath location="."/>
+			<classpath refid="lib.path"/>
+			<arg file="data/test.txt"/>
+		</java>
+	</target>
+
+	<target name="clean">
+		<delete dir="${build}"/>
+	</target>
+</project>
+

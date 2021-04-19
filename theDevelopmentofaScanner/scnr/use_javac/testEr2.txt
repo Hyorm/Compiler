@@ -1,0 +1,9 @@
+class TestClass { 
+	main() { 
+		int _iValue$ = 012$; //illegal literal 
+		while (_iValue$ < 5) { 
+			out.println(_iValue$ ); 
+			_iValue$++; 
+		}  
+	} 
+}

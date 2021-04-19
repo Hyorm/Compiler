@@ -1,0 +1,10 @@
+class TestClass { 
+	main() {//comment3 
+		int _iValue$ = 0; 
+		while (_iValue$ < 5) { 
+			out.println(_iValue$ ); 
+			_iValue$++; 
+		}  
+	} 
+}
+

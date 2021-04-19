@@ -1,0 +1,7 @@
+class Example { 
+	main() { 
+		for (int _i$ = 0; _i$ <= 10; _i$ = i + 2) { 
+			out.println(_i$); 
+		}  
+	} 
+}

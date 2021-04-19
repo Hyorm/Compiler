@@ -1,0 +1,15 @@
+class MyClass { 
+	main() { 
+		//comment1 
+		int $_Time0 = 22; 
+		if ($_Time0 < 10) { 
+			out.println("Good morning."); 
+		} 
+		else0 if ($_Time0 < 20) { 
+			out.println("Good day."); 
+		}  
+		else { 
+			out.println("Good evening."); 
+		}
+	} 
+}
