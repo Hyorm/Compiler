@@ -77,7 +77,7 @@ end while;
     (1) ant version<br>
     - Apache Ant(TM) version 1.10.5 compiled on March 28 2019<br>
     (2) build.xml
-    <pre>
+```
 <project name="scnr" default="build" basedir=".">
   <property name="src" value="src"/>
   <property name="build" value="build"/>
@@ -104,7 +104,7 @@ end while;
     <delete dir="${build}"/>
   </target>
 </project>
-</pre>
+```
 (3) command<br>
 - ant build<br>
 - ant run<br>
