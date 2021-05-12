@@ -119,4 +119,6 @@ end while;
    - javac scnr.java
    - java scnr [file name]
 ## RecursiveDescentParser
+[pdf](https://github.com/Hyorm/Compiler/blob/master/RecursiveDescentParser/hw2_21600193.pdf)
 ## LL_1_Parser
+[pdf](https://github.com/Hyorm/Compiler/blob/master/LL_1_Parser/hw3_21600193.pdf)
